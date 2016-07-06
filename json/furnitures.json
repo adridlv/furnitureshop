@@ -1,0 +1,34 @@
+[
+	{
+		"id": "1",
+		"category":"sofa",
+		"name": "Sofa 1",
+		"image": "images/sofas/Ektorp.jpg",
+		"description": "lorem ipsum asd 1",
+		"price": "30.38"
+	},
+	{
+		"id": "2",
+		"category":"sofa",
+		"name": "Sofa 2",
+		"image": "../images/sofa-1.jpg",
+		"description": "lorem ipsum zxclkjklj lkjñlkj kj 2",
+		"price": "30.38"
+	},
+	{
+		"id": "3",
+		"category":"sofa",
+		"name": "Sofa 3",
+		"image": "../images/sofa-1.jpg",
+		"description": "lorem ipsum lkj lakjdsfljh 3",
+		"price": "30.38"
+	},
+	{
+		"id": "4",
+		"category":"sofa",
+		"name": "Sofa 4",
+		"image": "../images/sofa-1.jpg",
+		"description": "lorem ipsum jslkdjfajsdhf kjh 4",
+		"price": "30.38"
+	}
+]
