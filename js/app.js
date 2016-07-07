@@ -14,6 +14,10 @@ app.config(['$routeProvider',function($routeProvider) {
 		templateUrl: "views/categoryFilter.html",
 		controller: "categoryManager"
 	})
+	.when("/contact",{
+		templateUrl: "views/contact.html",
+		controller: "contactManager"
+	})
 	.otherwise({
 		redirectTo: "/"
 	})
@@ -35,7 +39,6 @@ app.controller('furnituresManager',['$scope','$http', function($scope,$http){
 }]);
 
 app.controller("categoryManager",["$scope", "$http", "$routeParams", function($scope, $http, $routeParams){
-
 	$scope.category = $routeParams.category;
 
 	$http.get("json/furnitures.json").success (function (data){
@@ -45,4 +48,8 @@ app.controller("categoryManager",["$scope", "$http", "$routeParams", function($s
 
 app.controller('homeManager', ['$scope',"Home", function($scope, home){
 	home.initializeSlider();
+}]);
+
+app.controller("contactManager", ["$scope", function(){
+
 }]);

@@ -3,32 +3,262 @@
 		"id": "1",
 		"category":"sofa",
 		"name": "Sofa 1",
-		"image": "images/sofas/Ektorp.jpg",
-		"description": "lorem ipsum asd 1",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi.ipsum asd 1",
+		"image": "images/sofas/1.jpg",
 		"price": "30.38"
 	},
 	{
 		"id": "2",
 		"category":"sofa",
 		"name": "Sofa 2",
-		"image": "../images/sofa-1.jpg",
-		"description": "lorem ipsum zxclkjklj lkjñlkj kj 2",
+		"image": "images/sofas/2.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi.ipsum zxclkjklj lkjñlkj kj 2",
 		"price": "30.38"
 	},
 	{
 		"id": "3",
 		"category":"sofa",
 		"name": "Sofa 3",
-		"image": "../images/sofa-1.jpg",
-		"description": "lorem ipsum lkj lakjdsfljh 3",
+		"image": "images/sofas/3.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. lkj lakjdsfljh 3",
 		"price": "30.38"
 	},
 	{
 		"id": "4",
 		"category":"sofa",
 		"name": "Sofa 4",
-		"image": "../images/sofa-1.jpg",
-		"description": "lorem ipsum jslkdjfajsdhf kjh 4",
+		"image": "images/sofas/4.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
 		"price": "30.38"
+	},
+	{
+		"id": "5",
+		"category":"sofa",
+		"name": "Sofa 5",
+		"image": "images/sofas/5.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "30.38"
+	},
+	{
+		"id": "6",
+		"category":"sofa",
+		"name": "Sofa 6",
+		"image": "images/sofas/6.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "30.38"
+	},
+	{
+		"id": "7",
+		"category":"sofa",
+		"name": "Sofa 7",
+		"image": "images/sofas/7.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "30.38"
+	},
+	
+
+	{
+		"id": "8",
+		"category":"chair",
+		"name": "Chair 1",
+		"image": "images/chair/1.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "59,99"
+	},
+	{
+		"id": "9",
+		"category":"chair",
+		"name": "Chair 2",
+		"image": "images/chair/2.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "59,99"
+	},
+	{
+		"id": "10",
+		"category":"chair",
+		"name": "Chair 3",
+		"image": "images/chair/3.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "59,99"
+	},
+	{
+		"id": "11",
+		"category":"chair",
+		"name": "Chair 4",
+		"image": "images/chair/4.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "59,99"
+	},
+	{
+		"id": "12",
+		"category":"chair",
+		"name": "Chair 5",
+		"image": "images/chair/5.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "59,99"
+	},
+	{
+		"id": "13",
+		"category":"chair",
+		"name": "Chair 6",
+		"image": "images/chair/6.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "59,99"
+	},
+	{
+		"id": "14",
+		"category":"chair",
+		"name": "Chair 7",
+		"image": "images/chair/7.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "59,99"
+	},
+
+
+	{
+		"id": "15",
+		"category":"bed",
+		"name": "bed 1",
+		"image": "images/bed/1.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "159,99"
+	},
+	{
+		"id": "16",
+		"category":"bed",
+		"name": "bed 2",
+		"image": "images/bed/2.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "259,99"
+	},
+	{
+		"id": "16",
+		"category":"bed",
+		"name": "bed 3",
+		"image": "images/bed/3.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "99,99"
+	},
+	{
+		"id": "17",
+		"category":"bed",
+		"name": "bed 4",
+		"image": "images/bed/4.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "129,99"
+	},
+	{
+		"id": "18",
+		"category":"bed",
+		"name": "bed 5",
+		"image": "images/bed/5.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "110"
+	},
+	{
+		"id": "19",
+		"category":"bed",
+		"name": "bed 6",
+		"image": "images/bed/6.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "490"
+	},
+	{
+		"id": "20",
+		"category":"bed",
+		"name": "bed 7",
+		"image": "images/bed/7.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "1150"
+	},
+	{
+		"id": "21",
+		"category":"bed",
+		"name": "bed 9",
+		"image": "images/bed/8.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "1020"
+	},
+
+
+	{
+		"id": "22",
+		"category":"table",
+		"name": "table 1",
+		"image": "images/table/1.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "1020"
+	},
+	{
+		"id": "23",
+		"category":"table",
+		"name": "table 2",
+		"image": "images/table/2.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "49"
+	},
+	{
+		"id": "24",
+		"category":"table",
+		"name": "table 3",
+		"image": "images/table/3.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "29,99"
+	},
+	{
+		"id": "25",
+		"category":"table",
+		"name": "table 4",
+		"image": "images/table/4.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "89"
+	},
+	{
+		"id": "26",
+		"category":"table",
+		"name": "table 5",
+		"image": "images/table/5.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "1200"
+	},
+	{
+		"id": "27",
+		"category":"table",
+		"name": "table 6",
+		"image": "images/table/6.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "825"
+	},
+	{
+		"id": "28",
+		"category":"table",
+		"name": "table 7",
+		"image": "images/table/7.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "577,99"
+	},
+	{
+		"id": "29",
+		"category":"table",
+		"name": "table 8",
+		"image": "images/table/8.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "395"
+	},
+	{
+		"id": "30",
+		"category":"table",
+		"name": "table 9",
+		"image": "images/table/9.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "175"
+	},
+	{
+		"id": "31",
+		"category":"table",
+		"name": "table 10",
+		"image": "images/table/10.jpg",
+		"description": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea beatae vero at debitis modi, numquam illum id nulla, sit quos ut ipsam hic esse molestias. Ducimus architecto a, labore. Quasi. jslkdjfajsdhf kjh 4",
+		"price": "66"
 	}
 ]
