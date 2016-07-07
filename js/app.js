@@ -6,6 +6,14 @@ app.config(['$routeProvider',function($routeProvider) {
 		templateUrl: "views/home.html",
 		controller: "homeManager"
 	})
+	.when("/products",{
+		templateUrl: "views/products.html",
+		controller: "furnituresManager"
+	})
+	.when("/products/category/:category", {
+		templateUrl: "views/categoryFilter.html",
+		controller: "categoryManager"
+	})
 	.otherwise({
 		redirectTo: "/"
 	})
@@ -20,6 +28,15 @@ app.factory("Home", function(){
 });
 
 app.controller('furnituresManager',['$scope','$http', function($scope,$http){
+
+	$http.get("json/furnitures.json").success (function (data){
+		$scope.furnitures = data;
+	});
+}]);
+
+app.controller("categoryManager",["$scope", "$http", "$routeParams", function($scope, $http, $routeParams){
+
+	$scope.category = $routeParams.category;
 
 	$http.get("json/furnitures.json").success (function (data){
 		$scope.furnitures = data;
