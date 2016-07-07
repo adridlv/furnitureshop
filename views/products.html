@@ -1,5 +1,9 @@
 <section class="container" ng-controller="furnituresManager">
-	<div class="furniture-element" ng-repeat="furniture in furnitures">
+	<form>
+		<input placeholder="Search by category" type="text" ng-model="nameFilter">
+	</form>
+
+	<div class="furniture-element" ng-repeat="furniture in furnitures | filter: {category: nameFilter}">
 		<h4>{{furniture.name | uppercase}}</h4>
 		<img src="{{furniture.image}}" alt="">
 		<p>{{furniture.description}}</p>

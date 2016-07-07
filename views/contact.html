@@ -1,14 +1,16 @@
 <div class="container">
   <div class="row">
-    <form class="col s12">
+    <form name="contactForm" class="col s12">
       <div class="row">
         <div class="input-field col s4">
-          <input id="first_name" type="text" class="validate" required>
+          <input id="first_name" type="text" class="validate" ng-pattern="/^[a-zA-Z]$/" required>
           <label for="first_name">First Name</label>
+          <span ng-show="contactForm.first_name.$error.pattern">Not a valid name!</span>
         </div>
         <div class="input-field col s4">
-          <input id="last_name" type="text" class="validate" required>
+          <input id="last_name" name="last_name" type="text" ng-pattern="/^[a-zA-Z]$/" class="validate" required>
           <label for="last_name">Last Name</label>
+          <span ng-show="contactForm.last_name.$error.pattern">Not a valid name!</span>
         </div>
 
         <div class="input-field col s4">
@@ -24,7 +26,7 @@
         </div>
       </div>
 
-      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+      <button class="btn waves-effect waves-light" type="submit" ng-pattern="/^[a-zA-Z\s]*$/" name="action">Submit
         <i class="material-icons right">send</i>
       </button>
     </form>
