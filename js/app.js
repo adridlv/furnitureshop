@@ -51,5 +51,4 @@ app.controller('homeManager', ['$scope',"Home", function($scope, home){
 }]);
 
 app.controller("contactManager", ["$scope", function(){
-
 }]);

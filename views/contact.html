@@ -3,14 +3,14 @@
     <form name="contactForm" class="col s12">
       <div class="row">
         <div class="input-field col s4">
-          <input id="first_name" type="text" class="validate" ng-pattern="/^[a-zA-Z]$/" required>
+          <input type="text" name="first_name" ng-model="first_name" ng-model-options="{ updateOn: 'blur' }" ng-pattern="/^[a-zA-Z]+$/" required>
           <label for="first_name">First Name</label>
-          <span ng-show="contactForm.first_name.$error.pattern">Not a valid name!</span>
+          <span ng-show="contactForm.first_name.$error.pattern">First name must contain only letters.</span>
         </div>
         <div class="input-field col s4">
-          <input id="last_name" name="last_name" type="text" ng-pattern="/^[a-zA-Z]$/" class="validate" required>
+          <input type="text" name="last_name" ng-model="last_name" ng-model-options="{ updateOn: 'blur' }" ng-pattern="/^[a-zA-Z]+$/" required>
           <label for="last_name">Last Name</label>
-          <span ng-show="contactForm.last_name.$error.pattern">Not a valid name!</span>
+          <span ng-show="contactForm.last_name.$error.pattern">Last name must contain only letters.</span>
         </div>
 
         <div class="input-field col s4">
