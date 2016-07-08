@@ -84,3 +84,8 @@ main .slider .indicators .indicator-item.active{
 	font-weight:bold;
 	color:red;
 }
+
+.product-element{
+	margin-top:3em;
+	text-align:center;
+}

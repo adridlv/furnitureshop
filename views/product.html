@@ -1,7 +1,8 @@
 <section class="container" ng-controller="productManager">
-	<div class="furniture-element" ng-repeat="furniture in furnitures | filter: {id: id}:true">
+	<div class="product-element" ng-repeat="furniture in furnitures | filter: {id: id}:true">
 		<h4>{{furniture.name | uppercase}}</h4>
 		<img src="{{furniture.image}}" alt="">
-		<p>{{furniture.description}}</p>
+		<p><strong>Description:</strong> {{furniture.description}}</p>
+		<p><strong>Price:</strong> {{furniture.price}}€</p>
 	</div>	
 </section> 
