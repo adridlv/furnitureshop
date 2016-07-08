@@ -18,6 +18,10 @@ app.config(['$routeProvider',function($routeProvider) {
 		templateUrl: "views/contact.html",
 		controller: "contactManager"
 	})
+	.when("/products/id/:id",{
+		templateUrl: "views/product.html",
+		controller: "productManager"
+	})
 	.otherwise({
 		redirectTo: "/"
 	})
@@ -40,6 +44,14 @@ app.controller('furnituresManager',['$scope','$http', function($scope,$http){
 
 app.controller("categoryManager",["$scope", "$http", "$routeParams", function($scope, $http, $routeParams){
 	$scope.category = $routeParams.category;
+
+	$http.get("json/furnitures.json").success (function (data){
+		$scope.furnitures = data;
+	});
+}]);
+
+app.controller("productManager",["$scope", "$http", "$routeParams", function($scope, $http, $routeParams){
+	$scope.id = $routeParams.id;
 
 	$http.get("json/furnitures.json").success (function (data){
 		$scope.furnitures = data;

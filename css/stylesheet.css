@@ -16,14 +16,6 @@ header nav,footer.page-footer{
 	color:#000;
 }
 
-section div h4 {
-	position: absolute;
-}
-section div p {
-	position: relative;
-	bottom: 50px;
-}
-
 footer.page-footer{
 	padding:0;
 }
@@ -76,12 +68,19 @@ main .slider .indicators .indicator-item.active{
 	width:100%;
 	height:auto;
 }
-
-#facha {
-	padding-top: 40px;
-	border-radius: 15em;
+.contact-container{
+	margin-top:3em;
+}
+#fachada {
+	border-radius: 1em;
+	margin-left:2em;
 }
 .links-footer li{
 	display:inline-block;
 	margin-right:3em;
+}
+
+.error-input{
+	font-weight:bold;
+	color:red;
 }

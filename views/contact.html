@@ -1,34 +1,34 @@
 <div class="container">
-  <div class="row">
+  <div class="row contact-container">
     <form name="contactForm" class="col s6">
       <div class="row">
 
-        <div class="input-field col s11">
+        <div class="input-field col s12">
           <input type="text" name="first_name" ng-model="first_name" ng-model-options="{ updateOn: 'blur' }" ng-pattern="/^[a-zA-Z]+$/" required>
           <label for="first_name">First Name</label>
-          <span ng-show="contactForm.first_name.$error.pattern">First name must contain only letters.</span>
+          <span class="error-input" ng-show="contactForm.first_name.$error.pattern">First name must contain only letters.</span>
         </div>
 
       </div>
       <div class="row">
 
-        <div class="input-field col s11">
+        <div class="input-field col s12">
           <input type="text" name="last_name" ng-model="last_name" ng-model-options="{ updateOn: 'blur' }" ng-pattern="/^[a-zA-Z]+$/" required>
           <label for="last_name">Last Name</label>
-          <span ng-show="contactForm.last_name.$error.pattern">Last name must contain only letters.</span>
+          <span class="error-input" ng-show="contactForm.last_name.$error.pattern">Last name must contain only letters.</span>
         </div>
 
       </div>
       <div class="row">
 
-        <div class="input-field col s11">
+        <div class="input-field col s12">
           <input id="email" type="email" class="validate" required>
           <label for="email">Email</label>
         </div>
       </div>
       <div class="row">
 
-        <div class="input-field col s11">
+        <div class="input-field col s12">
           <i class="material-icons prefix">mode_edit</i>
           <textarea id="icon_prefix2" name="message" class="materialize-textarea" required></textarea>
           <label for="message">Message</label>
@@ -36,16 +36,13 @@
 
       </div>
 
-      <button class="btn waves-effect waves-light" type="submit" ng-pattern="/^[a-zA-Z\s]*$/" name="action">Submit
+      <button class="btn waves-effect waves-light" type="submit" ng-disabled="contactForm.$invalid" name="action">Submit
         <i class="material-icons right">send</i>
       </button>
     </form>
-    <span class="col s6 facha"> 
 
-       <div class="col s4">
-          <img id="facha" src="images/logos/fachaR.png" alt="fachada muebles peñalver en Alcalá la Real">
-       </div>
-
+    <span class="col s6 fachada"> 
+      <img id="fachada" src="images/logos/fachaR.png" alt="fachada muebles peñalver en Alcalá la Real">
     </span>
   </div>
 </div>
