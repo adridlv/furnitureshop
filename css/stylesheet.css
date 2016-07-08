@@ -79,6 +79,7 @@ main .slider .indicators .indicator-item.active{
 
 #facha {
 	padding-top: 40px;
+	border-radius: 15em;
 }
 .links-footer li{
 	display:inline-block;
