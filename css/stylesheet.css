@@ -16,6 +16,14 @@ header nav,footer.page-footer{
 	color:#000;
 }
 
+section div h4 {
+	position: absolute;
+}
+section div p {
+	position: relative;
+	bottom: 50px;
+}
+
 footer.page-footer{
 	padding:0;
 }
