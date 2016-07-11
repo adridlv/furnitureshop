@@ -89,3 +89,8 @@ main .slider .indicators .indicator-item.active{
 	margin-top:3em;
 	text-align:center;
 }
+
+.imagenPortada {
+	width: 200px;
+	border-radius: 90px;
+}
